@@ -7,43 +7,45 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>vue-gulu</title>
     <style>
-        *{
-            margin:0;
-            padding:0;
+        * {
+            margin: 0;
+            padding: 0;
             box-sizing: border-box;
         }
-        :root{
+
+        :root {
             --button-height: 32px;
             --font-size: 14px;
-            --button-bg:white;
+            --button-bg: white;
             --button-active-bg: #eee;
             --border-radius: 4px;
             --color: #333;
-            --border-color:#999;
-            --border-color-hover:#666;
+            --border-color: #999;
+            --border-color-hover: #666;
         }
-        #app{
+
+        #app {
             margin: 20px;
         }
-        body{
+
+        body {
             font-size: var(--font-size);
         }
     </style>
+    <style>
+        .icon {
+            width: 1em;
+            height: 1em;
+        }
+    </style>
 </head>
-
 <body>
 <div id="app">
-    <g-button></g-button>
+    <g-button icon="settings">按钮</g-button>
+    <g-button icon="settings" icon-position="left">按钮</g-button>
+    <g-button icon="settings" icon-position="right">按钮</g-button>
 </div>
-
 <script src="./src/app.js"></script>
-
-
-
-
-
-
-
+<script src="//at.alicdn.com/t/font_1042087_8sybda3b04p.js"></script>
 </body>
-
 </html>
