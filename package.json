@@ -18,5 +18,8 @@
   "homepage": "https://github.com/huzhengen/vue-gulu#readme",
   "dependencies": {
     "vue": "^2.6.5"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.11.0"
   }
 }
