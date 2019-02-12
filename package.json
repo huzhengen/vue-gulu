@@ -17,9 +17,16 @@
   },
   "homepage": "https://github.com/huzhengen/vue-gulu#readme",
   "dependencies": {
-    "vue": "^2.6.5"
+    "vue": "^2.6.6",
+    "vue-hot-reload-api": "^2.3.2"
   },
   "devDependencies": {
-    "parcel-bundler": "^1.11.0"
+    "@vue/component-compiler-utils": "^2.5.2",
+    "parcel-bundler": "^1.11.0",
+    "sass": "^1.17.0",
+    "vue-template-compiler": "^2.6.6"
+  },
+  "alias": {
+    "vue": "./node_modules/vue/dist/vue.common.js"
   }
 }
