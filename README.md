@@ -6,13 +6,17 @@
 
 ## 开始使用
 
-安装
+1、添加CSS样式
 
-使用本框架前，请在 CSS 中开启 border-box
+    使用本框架前，请在 CSS 中开启 border-box
 
-```css
-*{box-sizing:border-box}
-```
+    ```css
+    *,*::before,*::after{box-sizing:border-box}
+    ```
+
+    IE 8 及以上浏览器都支持此样式。
+
+2、安装
 
 ## 文档
 
