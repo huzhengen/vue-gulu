@@ -6,4 +6,4 @@ addons:
 sudo: required
 before_script:
   - "sudo chown root /opt/google/chrome/chrome-sandbox"
-  - "sodu chmod 4755 /opt/google/chrome/chrome-sandobx"
+  - "sodo chmod 4755 /opt/google/chrome/chrome-sandobx"
