@@ -11,6 +11,7 @@
 <script>
 import Icon from "./icon.vue";
 export default {
+  name: 'LfButton',
   components: {
     "g-icon": Icon
   },
@@ -33,7 +34,7 @@ export default {
 };
 </script>
 
-<style lang="scss" rel="stylesheet/scss">
+<style lang="scss" rel="stylesheet/scss" scoped>
 @keyframes spin {
   0% {
     transform: rotate(0deg);

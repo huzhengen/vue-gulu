@@ -31,6 +31,10 @@
         body {
             font-size: var(--font-size);
         }
+        
+        .box {
+            margin: 20px;
+        }
     </style>
     <style>
 
@@ -39,14 +43,24 @@
 
 <body>
     <div id="app">
-        <g-button :loading="loading1" @click="loading1 = !loading1">按钮</g-button>
-        <g-button :loading="loading2" @click="loading2 = !loading2" icon="settings">按钮</g-button>
-        <g-button :loading="loading3" @click="loading3 = !loading3" icon="download" icon-position="right">按钮</g-button>
-        <g-button-group>
-            <g-button icon="left">按钮</g-button>
-            <g-button>更多</g-button>
-            <g-button icon="right" icon-position="right">按钮</g-button>
-        </g-button-group>
+        <div class="box">
+            <g-button :loading="loading1" @click="loading1 = !loading1">按钮</g-button>
+            <g-button :loading="loading2" @click="loading2 = !loading2" icon="settings">按钮</g-button>
+            <g-button :loading="loading3" @click="loading3 = !loading3" icon="download" icon-position="right">按钮</g-button>
+        </div>
+        <div class="box">
+            <g-button-group>
+                <g-button icon="left">按钮</g-button>
+                <g-button>更多</g-button>
+                <g-button icon="right" icon-position="right">按钮</g-button>
+            </g-button-group>
+        </div>
+        <div class="box">
+            <g-input value="disabled" disabled></g-input>
+            <g-input value="只读" readonly></g-input>
+            <g-input value="错误" error="姓名不能少于2个字"></g-input>
+            <g-input value="普通"></g-input>
+        </div>
     </div>
     <script src="./src/app.js"></script>
 </body>
